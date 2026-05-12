@@ -42,15 +42,15 @@ It also includes an aggregated endpoint:
     POSTGRES_HOST=localhost
     POSTGRES_PORT=5432
 
-If you are using docker-compose.yml
+ 4.If you are using docker-compose.yml
     ```bash
     docker compose up --build
 
-Run Locally
+ 5.Run Locally
     ```bash
     uvicorn main:app --reload
 
-Then open:
+ 6.Then open:
     http://localhost:8000
     http://localhost:8000/docs for Swagger UI
 
